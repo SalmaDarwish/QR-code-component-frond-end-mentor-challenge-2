@@ -1,0 +1,43 @@
+section{
+    background-color: hsl(212, 45%, 89%)
+}
+@font-face {
+    font-family: Outfit;
+    src: url("Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: bold-outfit;
+    src: url("Outfit-Bold.ttf");
+}
+body{
+    font-family: Outfit;
+}
+.qr-img{
+    border-radius: 8px;
+}
+.strong-text{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: hsl(218, 44%, 22%);
+    font-family: bold-outfit;
+}
+.light-text{
+    font-size: 14px;
+    color:  hsl(220, 15%, 55%);
+    line-height: 1.2;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row{
+    width: 100%;
+}
+.round-rect{
+    border-radius: 15px;
+}
+@media screen and (max-width: 375px) {
+    .row{
+        width: 84%;
+    }
+    
+}
